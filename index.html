@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Vasudevan's Personal Site</title>
+
+    <style media="screen">
+.container {
+  background-color: #181A20;
+color: white;
+}
+hr.class-1 {
+    border-top: 3px double #8c8b8b;
+}
+    </style>
+
+
+  </head>
+  <body>
+
+<h1>Simplified NSE 2000 Stock charts</h1>
+<br>
+<hr class="class-1"size="3"/>
+<br />
+<div class="container">
+
+
+<form class="" action="mailto:thevasu.a@gmmail.com" method="post" enctype="text/plain">
+  <label for="">Gmail </label>
+  <input type="email" name="MailID" value="">
+  <br>
+  <br>
+  <label for="">Password </label>
+    <input type="password" name="Password" value="">
+    <br>
+    <br>
+  <input type="submit" name="submit" value="submit">
+
+
+</form>
+
+<hr class="class-1"size="3"/>
+
+<input id="date" type="date" />
+<script>
+var date = new Date();
+var currentDate = date.toISOString().slice(0,10);
+var currentTime = date.getHours() + ':' + date.getMinutes();
+
+document.getElementById('date').value = currentDate;
+</script>
+
+
+</div>
+  </body>
+</html>
